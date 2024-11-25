@@ -1,0 +1,17 @@
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\bin\Debug\net6.0-windows\ProyectoEstudiantes.exe
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\bin\Debug\net6.0-windows\ProyectoEstudiantes.deps.json
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\bin\Debug\net6.0-windows\ProyectoEstudiantes.runtimeconfig.json
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\bin\Debug\net6.0-windows\ProyectoEstudiantes.dll
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\bin\Debug\net6.0-windows\ProyectoEstudiantes.pdb
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.csproj.AssemblyReference.cache
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.csproj.GenerateResource.cache
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.AssemblyInfoInputs.cache
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.AssemblyInfo.cs
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.csproj.CoreCompileInputs.cache
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.dll
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\refint\ProyectoEstudiantes.dll
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.pdb
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.genruntimeconfig.cache
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ref\ProyectoEstudiantes.dll
+C:\Users\Jaretzy\OneDrive\Escritorio\Segundo Semestre 2024\Proyecto de programación\ProyectoEstudiantes\ProyectoEstudiantes\obj\Debug\net6.0-windows\ProyectoEstudiantes.Form_Gestion.resources
