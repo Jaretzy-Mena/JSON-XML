@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
-using Newtonsoft.Json;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 namespace JSON
@@ -12,14 +11,14 @@ namespace JSON
     public partial class Form_Productos : Form
     {
         private List<Productos> listproducto = new List<Productos>();
-        private const string FilePath = "Productos.json";
+        private const string Ruta = "Productos.json";
 
         private void MostrarProductos()
         {
             list_Productos.Items.Clear();
             foreach (var producto in listproducto)
             {
-                list_Productos.Items.Add($"ID: {producto.ID}, Nombre: {producto.Nombre}, Precio: {producto.Precio:C}");
+                list_Productos.Items.Add($"ID: {producto.ID}, Nombre: {producto.Nombre}, Precio: {producto.Precio:C}, Cantidad: {producto.Cantidad}");
             }
         }
         private void LimpiarCampos()
@@ -27,7 +26,9 @@ namespace JSON
             txt_ID.Clear();
             txt_Nombre.Clear();
             txt_Precio.Clear();
+            txt_Cantidad.Clear();
         }
+
         public Form_Productos()
         {
             InitializeComponent();
@@ -46,7 +47,8 @@ namespace JSON
                 {
                     ID = int.Parse(txt_ID.Text),
                     Nombre = txt_Nombre.Text,
-                    Precio = decimal.Parse(txt_Precio.Text)
+                    Precio = decimal.Parse(txt_Precio.Text),
+                    Cantidad = int.Parse(txt_Cantidad.Text)
                 };
                 listproducto.Add(productos);
                 MostrarProductos();
@@ -63,7 +65,7 @@ namespace JSON
             try
             {
                 string jsonData = System.Text.Json.JsonSerializer.Serialize(listproducto, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText(FilePath, jsonData);
+                File.WriteAllText(Ruta, jsonData);
                 MessageBox.Show("Datos Guardados en JSON.");
             }
             catch (Exception ex)
@@ -76,9 +78,9 @@ namespace JSON
         {
             try
             {
-                if (File.Exists(FilePath))
+                if (File.Exists(Ruta))
                 {
-                    string jsonData = File.ReadAllText(FilePath);
+                    string jsonData = File.ReadAllText(Ruta);
                     listproducto = System.Text.Json.JsonSerializer.Deserialize<List<Productos>>(jsonData) ?? new List<Productos>(); MostrarProductos();
                     MessageBox.Show("Datos cargados desde JSON.");
                 }
@@ -113,6 +115,21 @@ namespace JSON
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Nombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_Cantidad_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
